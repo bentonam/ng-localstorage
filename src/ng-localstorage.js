@@ -142,6 +142,17 @@ angular
 			}
 			return deferred.promise;
 		},
+		// determines if a key exists or not
+		exists: function( key ){
+			var deferred = $q.defer();
+			if( $window.localStorage.hasOwnProperty( key ) ){
+				deferred.resolve( key );
+			}
+			else{
+				deferred.reject( key );
+			}
+			return deferred.promise;
+		},
 		// gets all of the keys in localStorage and parses any JSON values
 		all: function(){
 			var deferred = $q.defer(),
