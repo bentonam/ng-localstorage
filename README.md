@@ -10,8 +10,7 @@ Install via bower
 
 Require it into your application (after Angular)
 
-
-	<script src="hangular.min.js"></script>
+	<script src="angular.min.js"></script>
 	<script src="ng-localstorage.js"></script>
 
 Add the module as a dependency to your app
