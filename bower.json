@@ -1,0 +1,29 @@
+{
+  "name": "ng-localstorage",
+  "main": "./dist/ng-localstorage.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/bentonam/ng-localstorage",
+  "authors": [
+    "Aaron Benton"
+  ],
+  "description": "AngularJS wrapper for Local Storage",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "ng-localstorage",
+    "api",
+    "angularjs",
+    "localstorage",
+    "local storage",
+    "storage"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
